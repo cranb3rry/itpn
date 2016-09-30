@@ -1,0 +1,84 @@
+
+
+body {
+	min-height: 100%;	
+	font-family: Antiquarius;
+	border-color: black;
+	font-size: 200%;
+	background: #b2e202;
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+@font-face {
+	font-family: 'Antiquarius';
+	src: url('Antiquarius.ttf');
+
+}
+
+
+header {
+	padding: 4px;
+	margin: 0px 0px 8px 0px;
+	border-style: solid;
+	border-width: 0px 0px 4px 0px;
+
+}
+
+
+
+ol {
+	
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	padding: 0px 24px 0px 0px;
+}
+
+li {
+	
+	border-style: solid;
+	border-width: 0px 0px 0px 4px;
+	display: inline;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover, a.on {
+	color: white;
+}
+
+
+
+article {
+	display: block;
+	width: 31%;
+	height: auto;
+	text-align: auto;
+	position: 30% 30%;
+	margin: 8px;
+	background: url(2.png) repeat;
+}
+
+footer {
+	margin: 0px 8px;
+	background: url(2.png) repeat;
+	position: absolute;
+	bottom: 0;
+}
+
+.cimc {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 20%;
+	height: 20%;
+	background: url("bg.png") no-repeat bottom right;
+}

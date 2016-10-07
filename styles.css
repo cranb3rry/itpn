@@ -1,74 +1,69 @@
-body {
-	min-height: 100%;	
+body {	
 	font-family: Antiquarius;
-	border-color: black;
-	font-size: 200%;
+	font-size: 100%;
 	background: #b2e202;
 
-	margin: 0px;
-	padding: 0px;
 }
 
 @font-face {
 	font-family: 'Antiquarius';
-	src: url('Antiquarius.ttf');
+	src: url('Antiquarius.ttf');}
 
+#content {
+	padding: 0px;
+	margin: 0px 0px 8px 0px;
+	float: left;
+	width: 60%;
 }
+
+
 
 header {
-	padding: 4px;
-	margin: 0px 0px 8px 0px;
+	height: 44px;
 	border-style: solid;
-	border-width: 0px 0px 4px 0px;
+	border-width: 0px 0px 2px 0px;
 }
 
-ol {
-	
-	display: inline;
-	padding: 0px;
-	margin: 0px;
+
+nav {
+
 	float: right;
-	padding: 0px 24px 0px 0px;
 }
 
 li {
-	
 	border-style: solid;
 	border-width: 0px 0px 0px 4px;
 	display: inline;
+	font-size: 150%;
 }
 
-a {
-	color: black;
+a {color: black;
 	text-decoration: none;
 }
 
-a:hover, a.on {
+a:hover {
 	color: white;
 }
 
-article {
-	display: block;
-	width: 31%;
-	height: auto;
-	text-align: auto;
-	position: 30% 30%;
-	margin: 8px;
-	background: url(2.png) repeat;
-}
-
 footer {
-	margin: 0px 8px;
-	background: url(2.png) repeat;
-	position: absolute;
+	position:fixed;
 	bottom: 0;
 }
 
-.cimc {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 20%;
-	height: 20%;
-	background: url("bg.png") no-repeat bottom right;
+h3, figcaption {
+	font-size: 100%;
+	color: white;
+}
+
+h1, h2, h3 {
+	font-weight: normal;}
+
+h2, footer {
+	font-size: 150%;
+	background: url(2.png) repeat;
+}
+
+aside {
+	width: 30%;
+	float: right;
 }
